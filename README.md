@@ -5,3 +5,5 @@
 ### RadioMenu     			-  封装的一个单选按钮类，cocos2d-x版本的。
 
 ### cocos2dx_3.4game		-  如何使用cocos2dx_3.4制作一个简单的游戏
+
+### SickHero					-  一个休闲益智的小游戏
