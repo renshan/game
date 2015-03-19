@@ -1,0 +1,17 @@
+[{
+		"readMe" : "这是游戏中所有音乐和特效文件的全局配置文件,组织格式为JSON,文本格式为UTF-8,tag为别名,name为资源路径,和配置文件同级目录或者子目录下.isBGM为是否为背景音乐,如果不是写0或者不写."
+	},
+	{"tag" : "bg1","name" : "sound/bg.ogg","isBGM" : 1},
+	{"tag" : "bg2","name" : "sound/bg.ogg","isBGM" : 1},
+	{"tag" : "bg3","name" : "sound/bg.ogg","isBGM" : 1},
+	{"tag" : "bg4","name" : "sound/bg.ogg","isBGM" : 1},
+	{"tag" : "bg5","name" : "sound/bg.ogg","isBGM" : 1},
+	{"tag" : "button","name" : "sound/button.ogg","isBGM" : 0},
+	{"tag" : "death","name" : "sound/death.ogg","isBGM" : 0},
+	{"tag" : "score","name" : "sound/score.ogg","isBGM" : 0},
+	{"tag" : "stick_fallen","name" : "sound/fall.ogg","isBGM" : 0},
+	{"tag" : "stick_grow_loop","name" : "sound/stick_grow_loop.ogg","isBGM" : 0},
+	{"tag" : "woodhit","name" : "sound/kick.ogg","isBGM" : 0},
+	{"tag" : "victory","name" : "sound/victory.ogg","isBGM" : 0}
+	
+]
