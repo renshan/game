@@ -6,4 +6,5 @@
 
 ### cocos2dx_3.4game		-  如何使用cocos2dx_3.4制作一个简单的游戏
 
-### SickHero					-  一个休闲益智的小游戏
+### SickHero					-  一个休闲益智的小游戏.
+PLEASE PROVIDE README IN ENG..
