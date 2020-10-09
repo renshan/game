@@ -1,45 +1,45 @@
-#如何使用Cocos2d-x 3.4制作一个简单的游戏
+#如何使用Cocos2d-x 3.4製作一個簡單的遊戲
 
-在这个cocos2d-x 3.4初学者教程中，你能从头到尾的学到怎么样为你的smart phone去制作一个简单而有趣的2d游戏。
+在這個cocos2d-x 3.4初學者教程中，你能從頭到尾的學到怎麼樣為你的smart phone去製作一個簡單而有趣的2d遊戲。
 
 
-##安装 Cocos2d-x
+##安裝 Cocos2d-x
 
-cocos2d-x 3.x配备的新的安装程序，所以入门从未如此简单！！！
+cocos2d-x 3.x配備的新的安裝程序，所以入門從未如此簡單！ ！ ！
 
-只需要[下载最新的cocos2d-x安装程序](http://cn.cocos2d-x.org/download/)（3.4版本或者其他版本），在终端输入`python setup.py`将**cocos**添加到环境变量
+只需要[下載最新的cocos2d-x安裝程序](http://cn.cocos2d-x.org/download/)（3.4版本或者其他版本），在終端輸入`python setup.py`將**cocos* *添加到環境變量
 
 ![Installing Cocos2D png](setup.png)
 
-脚本运行后你需要重启下你的终端或者设备以使配置生效。
+腳本運行後你需要重啟下你的終端或者設備以使配置生效。
 
 ##Hello World
 
-首先让我们先创建一个简单的Hello World项目。
+首先讓我們先創建一個簡單的Hello World項目。
 
-打开终端切换到你打算放置项目的目录，然后输入 `cocos new`,你将获得如下提示：
+打開終端切換到你打算放置項目的目錄，然後輸入 `cocos new`,你將獲得如下提示：
 
 ![step 1 png](new.png)
 
-根据提示信息输入`cocos new -p com.wangshaui.helloworld -l cpp HelloWorld`,获得如下信息则表示创建成功
+根據提示信息輸入`cocos new -p com.wangshaui.helloworld -l cpp HelloWorld`,獲得如下信息則表示創建成功
 
 ![step 2 png](create.png)
 
 
 
-运行已创建完成的项目，将得到以下效果
+運行已創建完成的項目，將得到以下效果
 
 ![step 3 png](run.png)
 
-点击左下角的按钮将退出游戏。在本教程中，你将和cocos2d-x 一起见证奇迹。
+點擊左下角的按鈕將退出遊戲。在本教程中，你將和cocos2d-x 一起見證奇蹟。
 
-##忍者登场！
+##忍者登場！
 
-在忍者登场之前，你将需要做一些美术工作...
+在忍者登場之前，你將需要做一些美術工作...
 
-第一步，下载这个项目的[资源包](http://cdn3.raywenderlich.com/downloads/Cocos2DSimpleGameResourcePack.zip)。解压这个文件，并且将资源文件放在**Resource**文件夹中
+第一步，下載這個項目的[資源包](http://cdn3.raywenderlich.com/downloads/Cocos2DSimpleGameResourcePack.zip)。解壓這個文件，並且將資源文件放在**Resource**文件夾中
 
-第二步，打开`HelloWorldScene.cpp`。记住，这里的代码是用来显示上图所示场景的，并且这将成为一个建立游戏的好地方。在你修改它之前，先好好看看这部分实例代码：
+第二步，打開`HelloWorldScene.cpp`。記住，這裡的代碼是用來顯示上圖所示場景的，並且這將成為一個建立遊戲的好地方。在你修改它之前，先好好看看這部分實例代碼：
 ```
 	bool HelloWorld::init()
 	{
